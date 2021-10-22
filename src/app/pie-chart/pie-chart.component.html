@@ -1,0 +1,15 @@
+<div class="pie-charts">
+  <!-- (click)="openSubPie()" -->
+  <div class="pie main-pie">
+    <google-chart  [type]="chartType" [data]="pieData" [width]="width"  [height]="height" [options]="options" (select)="onSelect($event)" >      
+    </google-chart>
+  </div>
+  <div class="pie sub-pie" *ngIf="showSubPie">
+    <h3>Showing Regions of Country {{countryName}} Value {{countryValue}}</h3>
+    <google-chart  [type]="chartType" [data]="subPieData" [width]="width"  [height]="height" [options]="subPieOptions"></google-chart>
+    
+  </div>  
+
+</div>
+
+

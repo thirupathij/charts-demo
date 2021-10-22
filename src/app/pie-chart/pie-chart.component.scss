@@ -1,0 +1,14 @@
+.pie-charts{
+    display: flex;
+    flex-direction: row;
+    .pie{
+        flex: 50%;
+    }
+    .sub-pie{
+        h3{
+            color: #660c70;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+}

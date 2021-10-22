@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    box-shadow: inset -1px 0 0 rgb(0 0 0 / 10%);
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    background-color: #f4f4f4;
+    width: 250px;
+}
+.main-body{
+    margin-left: 250px;
+    padding: 30px 15px ;    
+}
+li.nav-item a.active{
+    background-color: #eeeeee;
+}
